@@ -1,0 +1,36 @@
+button {
+  cursor: pointer;
+}
+
+.square-btn {
+  background: linear-gradient(90deg, #1199fa, #11d0fa);
+  color: white;
+  border-radius: 4px;
+  line-height: 22px;
+  padding: 8px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+}
+
+.round-btn {
+  color: #fff;
+  background-color: #0f1c39;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  padding: 8px 16px;
+  border: none;
+}
+
+.small-link {
+  all: unset;
+  color: rgb(17, 153, 250);
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.light-blue {
+  color: #a1d0f9;
+}

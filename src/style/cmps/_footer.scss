@@ -1,0 +1,13 @@
+.footer {
+  grid-area: footer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+  background-color: var(--main-bg-dark);
+  color: whitesmoke;
+
+  &__copyright {
+    padding: 10px;
+  }
+}

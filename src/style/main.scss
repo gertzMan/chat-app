@@ -1,0 +1,18 @@
+/* Setup */
+@import 'setup/vars.scss';
+@import 'setup/typography.scss';
+
+/* Base */
+@import 'base/base.scss';
+@import 'base/helpers.scss';
+@import 'base/layout.scss';
+
+/* Components */
+
+@import 'cmps/header.scss';
+@import 'cmps/footer.scss';
+@import 'cmps/chat-room.scss';
+
+/* pages */
+
+@import 'pages/homepage.scss';
