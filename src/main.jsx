@@ -7,7 +7,8 @@ import './style/main.scss'
 
 
 
-const client = new Ably.Realtime({ key: 'En0fJw.m2gwhA:P7-1RPRu-a5-R2p8CopN37mvdQxOAVitfynfQJtXf8w', clientId: 'me' });
+const client = new Ably.Realtime({ key: import.meta.env.VITE_ABLY_API_KEY, clientId: 'me' });
+// const client = new Ably.Realtime({ key: 'En0fJw.m2gwhA:P7-1RPRu-a5-R2p8CopN37mvdQxOAVitfynfQJtXf8w', clientId: 'me' });
 
 
 
